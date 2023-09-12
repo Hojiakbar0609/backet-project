@@ -18,7 +18,7 @@ function Product({ name, amount, price, image }) {
       </div>
       <div className="flex flex-col items-center px-4">
         <div>
-          <span>Amount</span>
+          <span className='text-black'>Amount</span>
         </div>
         <div className="flex gap-2 items-center">
           <button onClick={() => {dispatch(decrement())}} className="bg-slate-300 text-lg px-2">-</button>
